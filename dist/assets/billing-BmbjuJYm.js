@@ -1,0 +1,1 @@
+import{I as n}from"./index-C7bb8ntB.js";function g(){return n.get("/billing/rules").then(t=>t.data)}function l(){return n.get("/billing/settings").then(t=>t.data)}function s(t){return n.put("/billing/settings",t).then(i=>i.data)}export{g as f,l as g,s as u};
