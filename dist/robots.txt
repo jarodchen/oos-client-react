@@ -1,0 +1,7 @@
+# 公开分享页允许爬虫收录，内部页面一律禁止
+User-agent: *
+Disallow: /dashboard/
+Disallow: /admin/
+Disallow: /recycle/
+Disallow: /search/
+Disallow: /api/
